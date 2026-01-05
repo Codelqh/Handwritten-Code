@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/lqh/github/Handwritten-Code/build/Example",
+  "command": "/usr/bin/c++   -I/home/lqh/github/Handwritten-Code/Pointer    -std=c++17 -o CMakeFiles/unique_ptr_example.dir/unique_ptr_example.cpp.o -c /home/lqh/github/Handwritten-Code/Example/unique_ptr_example.cpp",
+  "file": "/home/lqh/github/Handwritten-Code/Example/unique_ptr_example.cpp"
+},
+{
+  "directory": "/home/lqh/github/Handwritten-Code/build/Example",
+  "command": "/usr/bin/c++   -I/home/lqh/github/Handwritten-Code/Pointer    -std=c++17 -o CMakeFiles/shared_ptr_example.dir/shared_ptr_example.cpp.o -c /home/lqh/github/Handwritten-Code/Example/shared_ptr_example.cpp",
+  "file": "/home/lqh/github/Handwritten-Code/Example/shared_ptr_example.cpp"
+}
+]

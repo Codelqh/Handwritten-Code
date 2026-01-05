@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Pointer/UniquePtr.h
+memory
+-
+utility
+-
+type_traits
+-
+
+/home/lqh/github/Handwritten-Code/Example/unique_ptr_example.cpp
+iostream
+-
+UniquePtr.h
+/home/lqh/github/Handwritten-Code/Example/UniquePtr.h
+
