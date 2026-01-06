@@ -122,6 +122,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named timer_example
+
+# Build rule for target.
+timer_example: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 timer_example
+.PHONY : timer_example
+
+# fast build rule for target.
+timer_example/fast:
+	$(MAKE) -f Example/CMakeFiles/timer_example.dir/build.make Example/CMakeFiles/timer_example.dir/build
+.PHONY : timer_example/fast
+
+#=============================================================================
 # Target rules for targets named unique_ptr_example
 
 # Build rule for target.
@@ -156,6 +169,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... timer_example"
 	@echo "... unique_ptr_example"
 	@echo "... shared_ptr_example"
 .PHONY : help

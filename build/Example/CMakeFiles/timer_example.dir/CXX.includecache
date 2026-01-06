@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../Timer/Timer.h
+cstdint
+-
+sys/epoll.h
+-
+functional
+-
+chrono
+-
+map
+-
+memory
+-
+iostream
+-
+sys/types.h
+-
+
+/home/lqh/github/Handwritten-Code/Example/timer_example.cpp
+Timer.h
+-
+iostream
+-
+thread
+-
+sys/epoll.h
+-
+

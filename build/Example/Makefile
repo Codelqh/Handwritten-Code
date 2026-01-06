@@ -122,6 +122,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+Example/CMakeFiles/timer_example.dir/rule:
+	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f CMakeFiles/Makefile2 Example/CMakeFiles/timer_example.dir/rule
+.PHONY : Example/CMakeFiles/timer_example.dir/rule
+
+# Convenience name for target.
+timer_example: Example/CMakeFiles/timer_example.dir/rule
+
+.PHONY : timer_example
+
+# fast build rule for target.
+timer_example/fast:
+	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f Example/CMakeFiles/timer_example.dir/build.make Example/CMakeFiles/timer_example.dir/build
+.PHONY : timer_example/fast
+
+# Convenience name for target.
 Example/CMakeFiles/unique_ptr_example.dir/rule:
 	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f CMakeFiles/Makefile2 Example/CMakeFiles/unique_ptr_example.dir/rule
 .PHONY : Example/CMakeFiles/unique_ptr_example.dir/rule
@@ -178,6 +193,33 @@ shared_ptr_example.cpp.s:
 	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f Example/CMakeFiles/shared_ptr_example.dir/build.make Example/CMakeFiles/shared_ptr_example.dir/shared_ptr_example.cpp.s
 .PHONY : shared_ptr_example.cpp.s
 
+timer_example.o: timer_example.cpp.o
+
+.PHONY : timer_example.o
+
+# target to build an object file
+timer_example.cpp.o:
+	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f Example/CMakeFiles/timer_example.dir/build.make Example/CMakeFiles/timer_example.dir/timer_example.cpp.o
+.PHONY : timer_example.cpp.o
+
+timer_example.i: timer_example.cpp.i
+
+.PHONY : timer_example.i
+
+# target to preprocess a source file
+timer_example.cpp.i:
+	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f Example/CMakeFiles/timer_example.dir/build.make Example/CMakeFiles/timer_example.dir/timer_example.cpp.i
+.PHONY : timer_example.cpp.i
+
+timer_example.s: timer_example.cpp.s
+
+.PHONY : timer_example.s
+
+# target to generate assembly for a file
+timer_example.cpp.s:
+	cd /home/lqh/github/Handwritten-Code/build && $(MAKE) -f Example/CMakeFiles/timer_example.dir/build.make Example/CMakeFiles/timer_example.dir/timer_example.cpp.s
+.PHONY : timer_example.cpp.s
+
 unique_ptr_example.o: unique_ptr_example.cpp.o
 
 .PHONY : unique_ptr_example.o
@@ -214,11 +256,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... timer_example"
 	@echo "... unique_ptr_example"
 	@echo "... shared_ptr_example"
 	@echo "... shared_ptr_example.o"
 	@echo "... shared_ptr_example.i"
 	@echo "... shared_ptr_example.s"
+	@echo "... timer_example.o"
+	@echo "... timer_example.i"
+	@echo "... timer_example.s"
 	@echo "... unique_ptr_example.o"
 	@echo "... unique_ptr_example.i"
 	@echo "... unique_ptr_example.s"
