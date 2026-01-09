@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../Design/CMakeLists.txt"
   "../Example/CMakeLists.txt"
   "../Pointer/CMakeLists.txt"
   "../RingBuffer/CMakeLists.txt"
@@ -48,11 +49,13 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Pointer/CMakeFiles/CMakeDirectoryInformation.cmake"
   "RingBuffer/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Timer/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Design/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Example/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "Example/CMakeFiles/singleton_example.dir/DependInfo.cmake"
   "Example/CMakeFiles/timer_example.dir/DependInfo.cmake"
   "Example/CMakeFiles/unique_ptr_example.dir/DependInfo.cmake"
   "Example/CMakeFiles/shared_ptr_example.dir/DependInfo.cmake"

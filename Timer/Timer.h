@@ -16,6 +16,18 @@
 #include <iostream>
 #include <sys/types.h>
 
+/*
+    实现要点：
+    1. 包装任务，到期时间和对应的回调函数；
+    2. 定时器类实现要点：
+        提供的接口：
+            添加定时器，删除定时器，处理定时器，获取下一个定时器的等待时间；
+        内部维护一个有序的定时器容器，使用multimap实现,key为到期时间，value为任务指针；
+        
+*/
+
+
+
 using namespace std;
 class Timer;
 class TimerTask{

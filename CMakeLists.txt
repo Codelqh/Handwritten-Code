@@ -16,4 +16,5 @@ enable_testing()
 add_subdirectory(Pointer)
 add_subdirectory(RingBuffer)
 add_subdirectory(Timer)
+add_subdirectory(Design)
 add_subdirectory(Example)   # 示例依赖上面的库

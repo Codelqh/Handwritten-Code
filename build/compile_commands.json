@@ -1,6 +1,11 @@
 [
 {
   "directory": "/home/lqh/github/Handwritten-Code/build/Example",
+  "command": "/usr/bin/c++   -I/home/lqh/github/Handwritten-Code/Design    -std=c++17 -o CMakeFiles/singleton_example.dir/singleton_example.cpp.o -c /home/lqh/github/Handwritten-Code/Example/singleton_example.cpp",
+  "file": "/home/lqh/github/Handwritten-Code/Example/singleton_example.cpp"
+},
+{
+  "directory": "/home/lqh/github/Handwritten-Code/build/Example",
   "command": "/usr/bin/c++   -I/home/lqh/github/Handwritten-Code/Timer    -std=c++17 -o CMakeFiles/timer_example.dir/timer_example.cpp.o -c /home/lqh/github/Handwritten-Code/Example/timer_example.cpp",
   "file": "/home/lqh/github/Handwritten-Code/Example/timer_example.cpp"
 },

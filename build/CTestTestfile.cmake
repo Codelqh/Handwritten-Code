@@ -7,4 +7,5 @@
 subdirs("Pointer")
 subdirs("RingBuffer")
 subdirs("Timer")
+subdirs("Design")
 subdirs("Example")
