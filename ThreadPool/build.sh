@@ -1,0 +1,1 @@
+g++ -g ThreadPool.cpp example.cpp -std=c++17 -pthread -o ThreadPoolExample
